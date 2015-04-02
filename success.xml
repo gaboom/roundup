@@ -1,0 +1,25 @@
+<Repower>
+   <RequestId>11507</RequestId>
+   <TransactionReference>4239914003021501211</TransactionReference>
+   <TransactionHistory>
+      <Transaction>
+         <Type>REPOWERPAYMENT</Type>
+         <SystemTraceAuditNumber>074406</SystemTraceAuditNumber>
+         <NetworkReferenceNumber>412370594</NetworkReferenceNumber>
+         <SettlementDate>0703</SettlementDate>
+         <Response>
+            <Code>00</Code>
+            <Description>Approved or completed successfully</Description>
+         </Response>
+         <SubmitDateTime>2012-07-02T12:17:46Z</SubmitDateTime>
+      </Transaction>
+   </TransactionHistory>
+   <!-- Optional -->
+   <AccountBalance>
+      <Value>7250</Value>
+      <Currency>840</Currency>
+   </AccountBalance>
+   <PANMappingFileInformation>0101M0216518600960419927903041907</PANMappingFileInformation>
+   <ICCEMVData>9F36020000910AEE7C7466F8DE982D0010</ICCEMVData>
+</Repower>
+

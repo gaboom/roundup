@@ -70,8 +70,9 @@ service.factory("repower", function($http, $q) {
         replace("__TIME__", time);
 
       return $q(function(resolve, reject) {
-        $http.post("http://dmartin.org:8021/repower/v1/repower?Format=XML",
-          request,
+        //$http.post("http://dmartin.org:8021/repower/v1/repower?Format=XML",
+        $http.get("/success.xml",
+          //request,
           {
             headers: {'Content-Type': 'application/xml'}
           }
