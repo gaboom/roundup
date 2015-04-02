@@ -1,0 +1,59 @@
+<div class="campaignContainer">
+	<div class="chooseText">Choose how to share your <span class="amount">{{systemCurrency}} {{getShareAmount() | currency:'$':0}}</span></div>
+<div class="row">
+        <div class="col-md-4">
+        <div class="catContainer" ng-click="openLocalDialog()">
+        	<div class="catHead">Our local cause</div>
+        	<div class="image1">
+                <div class="round"><div class="circleBase type1">
+                    <div class="no">{{getTxnCount(0)}}</div>
+                    <div class="text">Donation today</div>
+
+                </div></div>
+            </div>
+
+            <div class="info">
+                <div class="actionText">Give to</div>
+                <div class="placeText">Feeding Hong Kong</div>
+            </div>
+        </div>
+
+        </div>
+        <div class="col-md-4">
+        <div class="catContainer" ng-click="openPif()">
+        	<div class="catHead">Share free tea</div>
+        	<div class="image2">
+             <div class="round"><div class="circleBase type1">
+                  <div class="no">{{getTxnCount(1)}}</div>
+                    <div class="text">Cups filled today</div>
+
+             </div></div>   
+            </div>
+            <div class="info">
+                <div class="actionText">Pay it forward</div>
+                <div class="placeText">Add to the cup</div>
+            </div>
+        </div>
+        	
+        </div>
+        <div class="col-md-4">
+        <div class="catContainer" ng-click="openGlobalDialog()">
+        	<div class="catHead">Change the world</div>
+        	<div class="image3">
+             <div class="round"><div class="circleBase type1">
+                  <div class="no">{{getTxnCount(2)}}</div>
+                    <div class="text">Donation today</div>
+
+             </div></div>   
+            </div>
+            <div class="info">
+                <div class="actionText">Give to</div>
+                <div class="placeText">UNICEF</div>
+            </div>
+        </div>
+        	
+        </div>
+      </div>
+
+</div>
+

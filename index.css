@@ -1,0 +1,59 @@
+@font-face {
+    font-family: 'Avenir LT Std 95 Black';
+    src: url('lib/avenir/AvenirLTStd-Black.otf') format('opentype');
+}
+
+@font-face {
+    font-family: 'Avenir LT Std 95 Black Oblique';
+    src: url('lib/avenir/AvenirLTStd-BlackOblique.otf') format('opentype');
+}
+
+@font-face {
+    font-family: 'Avenir LT Std 45 Book';
+    src: url('lib/avenir/AvenirLTStd-Book.otf') format('opentype');
+}
+
+@font-face {
+    font-family: 'Avenir LT Std 45 Book Oblique';
+    src: url('lib/avenir/AvenirLTStd-BookOblique.otf') format('opentype');
+}
+
+@font-face {
+    font-family: 'Avenir LT Std 85 Heavy';
+    src: url('lib/avenir/AvenirLTStd-Heavy.otf') format('opentype');
+}
+
+@font-face {
+    font-family: 'Avenir LT Std 5 Heavy Oblique';
+    src: url('lib/avenir/AvenirLTStd-HeavyOblique.otf') format('opentype');
+}
+
+@font-face {
+    font-family: 'Avenir LT Std 35 Light';
+    src: url('lib/avenir/AvenirLTStd-Light.otf') format('opentype');
+}
+
+@font-face {
+    font-family: 'Avenir LT Std 35 Light Oblique';
+    src: url('lib/avenir/AvenirLTStd-LightOblique.otf') format('opentype');
+}
+
+@font-face {
+    font-family: 'Avenir LT Std 65 Medium';
+    src: url('lib/avenir/AvenirLTStd-Medium.otf') format('opentype');
+}
+
+@font-face {
+    font-family: 'Avenir LT Std 65 Medium Oblique';
+    src: url('lib/avenir/AvenirLTStd-MediumOblique.otf') format('opentype');
+}
+
+@font-face {
+    font-family: 'Avenir LT Std 55 Oblique';
+    src: url('lib/avenir/AvenirLTStd-Oblique.otf') format('opentype');
+}
+
+@font-face {
+    font-family: 'Avenir LT Std 55 Roman';
+    src: url('lib/avenir/AvenirLTStd-Roman.otf') format('opentype');
+}

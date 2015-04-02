@@ -1,0 +1,9 @@
+<div class="totalContainer">
+  <div class="orderTotalText">Order total: {{systemCurrency}} {{getTxnAmount() | currency:'$':0}}</div>
+  <div class="roundUpText">Round up to make a difference?</div>
+  <div class="shareAmountText">Add the extra <span class="amount">{{systemCurrency}} {{getShareAmount() | currency:'$':0}}</span>, improve a life</div>
+  <div ng-click="gotoCampaign()" class="button">
+  <div class="topText">Round up to</div>
+  <div class="bottomText">{{getRoundupTxnValue() | currency:"HK $":0}}</div>
+  </div>
+</div>
